@@ -20,5 +20,8 @@
   "homepage": "https://github.com/zoosky/esbuild-contact-app#readme",
   "devDependencies": {
     "esbuild": "^0.13.14"
+  },
+  "dependencies": {
+    "underscore": "^1.13.1"
   }
 }

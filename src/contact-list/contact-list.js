@@ -1,13 +1,14 @@
 /**
  * contact list
  */
-import contacts from "./data.json"
+import contacts from "./data.json";
+import { each } from "underscore";
   
   const contactList = document.createElement("div");
   
   contactList.className = "contact-list";
   
-  contacts.forEach((entry) => {
+  each (contacts,(entry) => {
     const element = document.createElement("div");
     element.className = "contact";
   
