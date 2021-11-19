@@ -1,6 +1,8 @@
 import "./index.d"
 
-import './header/header'
-import './contact-list/contact-list'
+import { renderHeader } from './header/header'
+import { renderContactList } from './contact-list/contact-list'
+renderHeader()
+renderContactList();
 
 import './style.css'

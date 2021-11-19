@@ -6,6 +6,7 @@ import "./header.scss"
  * header
  */
 
+export function renderHeader() {
  const header = document.createElement("div");
  header.className = "header";
  
@@ -14,4 +15,4 @@ import "./header.scss"
  header.querySelector('.add-icon').setAttribute('src', add_icon)
  
  document.body.appendChild(header);
- 
+}

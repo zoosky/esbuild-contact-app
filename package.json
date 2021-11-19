@@ -4,6 +4,7 @@
   "description": "",
   "main": "script.js",
   "type": "module",
+  "sideEffects": ["src/index.d.ts"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node build.js",
