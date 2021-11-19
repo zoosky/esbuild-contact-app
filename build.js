@@ -8,6 +8,8 @@ esbuildServe(
         outdir: 'dist',
         logLevel: 'info',
         minify: true,
+        splitting: true,
+        format: 'esm',
         sourcemap: true,
         plugins: [saasEs],
         loader: {
