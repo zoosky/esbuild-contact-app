@@ -1,0 +1,23 @@
+{
+  "name": "contact-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoosky/esbuild-contact-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zoosky/esbuild-contact-app/issues"
+  },
+  "homepage": "https://github.com/zoosky/esbuild-contact-app#readme",
+  "devDependencies": {
+    "esbuild": "^0.13.14"
+  }
+}
