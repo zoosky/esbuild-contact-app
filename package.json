@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/zoosky/esbuild-contact-app#readme",
   "devDependencies": {
+    "@es-pack/esbuild-sass-plugin": "^2.0.0",
     "@types/lodash-es": "^4.17.5",
     "esbuild": "^0.13.14",
     "esbuild-serve": "^1.0.1",

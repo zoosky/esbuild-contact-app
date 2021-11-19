@@ -5,5 +5,5 @@ import { renderContactList } from './contact-list/contact-list'
 renderHeader()
 renderContactList();
 
-import './style.css'
 import './header/header.scss'
+import './style.css'

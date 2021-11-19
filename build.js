@@ -1,5 +1,5 @@
 import esbuildServe from 'esbuild-serve';
-import saasEs from 'essass'
+import sassEs from 'essass'
 
 esbuildServe(
     {
@@ -7,11 +7,11 @@ esbuildServe(
         bundle: true,
         outdir: 'dist',
         logLevel: 'info',
-        minify: true,
+        minify: false,
         splitting: true,
         format: 'esm',
         sourcemap: true,
-        plugins: [saasEs],
+        plugins: [sassEs],
         loader: {
             '.png': 'file',
             '.html': 'text'
