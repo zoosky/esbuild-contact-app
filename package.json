@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/zoosky/esbuild-contact-app#readme",
   "devDependencies": {
+    "@types/underscore": "^1.11.3",
     "esbuild": "^0.13.14",
     "esbuild-serve": "^1.0.1"
   },
