@@ -1,4 +1,5 @@
 import esbuildServe from 'esbuild-serve';
+import saasEs from 'essass'
 
 esbuildServe(
     {
@@ -7,6 +8,7 @@ esbuildServe(
         outfile: 'dist/index.js',
         logLevel: 'info',
         sourcemap: true,
+        plugins: [saasEs],
         loader: {
             '.png': 'file',
             '.html': 'text'

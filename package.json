@@ -23,7 +23,8 @@
   "devDependencies": {
     "@types/underscore": "^1.11.3",
     "esbuild": "^0.13.14",
-    "esbuild-serve": "^1.0.1"
+    "esbuild-serve": "^1.0.1",
+    "essass": "^1.1.0"
   },
   "dependencies": {
     "underscore": "^1.13.1"
