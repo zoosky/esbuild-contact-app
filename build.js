@@ -3,9 +3,9 @@ import saasEs from 'essass'
 
 esbuildServe(
     {
-        entryPoints: ['src/index.ts'],
+        entryPoints: ['src/index.ts', 'src/about.ts'],
         bundle: true,
-        outfile: 'dist/index.js',
+        outdir: 'dist',
         logLevel: 'info',
         minify: true,
         sourcemap: true,
