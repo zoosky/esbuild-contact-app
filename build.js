@@ -7,6 +7,7 @@ esbuildServe(
         bundle: true,
         outfile: 'dist/index.js',
         logLevel: 'info',
+        minify: true,
         sourcemap: true,
         plugins: [saasEs],
         loader: {
