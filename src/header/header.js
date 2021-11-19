@@ -1,6 +1,7 @@
 import header_template from "./header.html"
 import logo from './logo.png'
 import add_icon from './add.png'
+import "./header.css"
 /**
  * header
  */

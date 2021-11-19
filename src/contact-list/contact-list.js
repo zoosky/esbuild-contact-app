@@ -4,6 +4,7 @@
 import contacts from "./data.json";
 import { each } from "underscore";
 import template from "./contact-list.html";
+import "./contact-list.css"
   
   const contactList = document.createElement("div");
   
