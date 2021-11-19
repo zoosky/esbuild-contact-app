@@ -5,7 +5,8 @@
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "esbuild src/index.js --bundle --outfile=dist/index.js --loader:.html=text --loader:.png=file --public-path=./dist"
+    "build": "esbuild src/index.js --bundle --outfile=dist/index.js --loader:.html=text --loader:.png=file --public-path=./dist",
+    "watch": "esbuild src/index.js --bundle --outfile=dist/index.js --loader:.html=text --loader:.png=file --public-path=./dist --watch"
   },
   "repository": {
     "type": "git",
