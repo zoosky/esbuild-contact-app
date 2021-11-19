@@ -6,6 +6,7 @@ esbuildServe(
         bundle: true,
         outfile: 'dist/index.js',
         logLevel: 'info',
+        sourcemap: true,
         loader: {
             '.png': 'file',
             '.html': 'text'
