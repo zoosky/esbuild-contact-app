@@ -4,7 +4,9 @@
   "description": "",
   "main": "script.js",
   "type": "module",
-  "sideEffects": ["src/index.d.ts"],
+  "sideEffects": [
+    "src/index.d.ts"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node build.js",
@@ -22,12 +24,12 @@
   },
   "homepage": "https://github.com/zoosky/esbuild-contact-app#readme",
   "devDependencies": {
-    "@types/underscore": "^1.11.3",
+    "@types/lodash-es": "^4.17.5",
     "esbuild": "^0.13.14",
     "esbuild-serve": "^1.0.1",
     "essass": "^1.1.0"
   },
   "dependencies": {
-    "underscore": "^1.13.1"
+    "lodash-es": "^4.17.21"
   }
 }

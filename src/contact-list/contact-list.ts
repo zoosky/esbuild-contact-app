@@ -2,7 +2,7 @@
  * contact list
  */
 import contacts from "./data.json";
-import  each from "underscore/modules/each.js";
+import  { each } from "lodash-es";
 import template from "./contact-list.html";
 import "./contact-list.scss"
   
